@@ -14,10 +14,10 @@
 
     <!-- navbar awal -->
 
-    <header class="bg-tranparent absolute top-0 left-0 w-full flex item-center z-10">
-        <div class="container">
+    <header class="bg-transparent absolute top-0 left-0 w-full flex item-center z-10 md:bg-transparent">
+        <div class="container bg-transparent">
             <div class="flex item-center justify-between relative">
-                <div class="px-4">
+                <div class="px-4 overflow-hidden">
                     <img src="assets/img/" alt="">
                     <a href="#home" class="font-bold text-lg text-primary block py-6">RCO Batam</a>
                 </div>
@@ -56,7 +56,7 @@
 
     <!-- hero section start -->
 
-    <section id="home" class="pt-36 pb-36" style="background-image:url(assets/img/Group\ 30\ \(3\).png);">
+    <section id="home" class="pt-36 pb-36 overflow-hidden" style="background-image:url(assets/img/png\ rco.png);">
         <div class="container">
             <div class="flex flex-wrap">
                 <div class="w-full self-center px-4 lg:w-1/2">
@@ -86,41 +86,43 @@
 
     <!-- Card layanan awal -->
 
-    <section id="layanan" class="pt-30 pb-32">
+    <section id="layanan" class="pt-36 pb-16 bg-slate-200">
         <div class="container">
-            <h2 class="text-center font-bold text-4xl py-2 text-primary">Layanan Kami</h2>
-            <p class="font-sans text-center text-base pb-10">Kami Hadir Untuk anda</p>
-            <div class="container pb-30 grid grid-cols-1 gap-2 md:grid-cols-3 md:w-full">
-                <div class="w-full h-full bg-white aspect-[4/3] rounded-lg text-center mt-2 group relative hover:bg-primary hover:shadow-xl">
-                    <div class="absolute group-hover:text-white transition-all duration-500">
-                        <img src="assets/img/rcobgwhite.png" alt="" class="mx-auto pt-12 ">
-                        <h2 class="text-2xl font-bold py-5 text-primary group-hover:text-white transition-all duration-500">Konsultasi</h2>
-                        <p class=" px-10">Sebelum Melakukan Penangan
+            <h2 class="text-center text-4xl font-bold text-primary">Layanan Kami</h2>
+            <p class="text-center">percayakan Semuanya Kepada Kami</p>
+            <div class="flex flex-wrap md:flex-nowrap py-10 md:">
+                <div class="w-full h-full px-4 mb-6 flex flex-col row-3 rounded-md shadow-md overflow-hidden hover:bg-primary hover:text-white md:px-4">
+                    <div class=" w-full h-[313px] px-4 rounded-md grid grid-cols-1">
+                        <div class="mx-auto py-2 w-10 md:w-20">
+                            <img class="pt-10" src="assets/img/rcobgwhite.png" alt="" srcset="">
+                        </div>
+                        <h2 class="text-center text-2xl">Konsultasi</h2>
+                        <p class="text-sm text-center">Sebelum Melakukan Penangan
                             pasien akan mendapatkan FREE Konsultasi
                             apakah cedera bisa ditangani 
                             atau ranahnya medis ( Rumah Sakit ).
                             </p>
                     </div>
                 </div>
-                <div class="w-full h-full bg-white aspect-[4/3] rounded-lg text-center mt-2 group relative hover:bg-primary hover:shadow-xl">
-                    <div class="absolute text-black group-hover:text-white transition-all duration-500">
-                        <img src="assets/img/rcobgwhite.png" alt="" class="mx-auto pt-12">
-                        <h2 class="text-2xl font-bold py-5 text-primary group-hover:text-white transition-all duration-500">Penanganan</h2>
-                        <p class=" px-10">OVERTRAINING, FATIGUE, DOMS,
+                <div class="w-full h-full px-4 mb-6 flex flex-col row-6 rounded-md shadow-md overflow-hidden hover:bg-primary hover:text-white">
+                    <div class=" w-full h-[313px] px-4 rounded-md grid grid-cols-1">
+                        <div class="mx-auto py-2 w-10 md:w-20">
+                            <img class="pt-10" src="assets/img/rcobgwhite.png" alt="" srcset="">
+                        </div>
+                        <h2 class="text-center text-2xl">Penanganan</h2>
+                        <p class="text-center text-sm">OVERTRAINING, FATIGUE, DOMS,
                             CIDERA LIGAMEN, CIDERA TENDON 
-                           & DISLOKASI CIDERA OLAHRAGA.
-                            </p>
+                           & DISLOKASI CIDERA OLAHRAGA.</p>
                     </div>
                 </div>
-                <div class="w-full h-full bg-white aspect-[4/3] rounded-lg text-center mt-2 group relative hover:bg-primary hover:shadow-xl">
-                    <div class="absolute text-black group-hover:text-white transition-all duration-500">
-                        <img src="assets/img/rcobgwhite.png" alt="" class="mx-auto pt-12">
-                        <h2 class="text-2xl font-bold py-5 text-primary group-hover:text-white transition-all duration-500">Rehab Cidera</h2>
-                        <p class=" px-10">Program Rehab selama proses
-                            penyembuhan Cedera yang akan dilakukan dilakukan oleh Client.
-                            </p>
-                    </div>
-                </div>
+                <div class="w-full h-full px-4 mb-6 flex flex-col row-6 rounded-md shadow-md overflow-hidden hover:bg-primary hover:text-white">
+                    <div class=" w-full h-[313px] px-4 rounded-md grid grid-cols-1">
+                        <div class="mx-auto py-2 w-10 md:w-20">
+                            <img class="pt-10" src="assets/img/rcobgwhite.png" alt="" srcset="">
+                        </div>
+                        <h2 class="text-center text-2xl">Program Rehab Cedera</h2>
+                        <p class="text-center text-sm">Program Rehab selama proses
+                            penyembuhan Cedera.</p>
                     </div>
                 </div>
             </div>
@@ -136,7 +138,7 @@
             <div class="flex flex-wrap">
                 <div class="w-full self-end px-4 lg:w-1/2">
                     <div class="relative mt-10 lg:mt-9 lg:right-0">
-                        <img src="assets/img/profile.png" alt="Widodo" class="max-w-full mx-auto py"/>
+                        <img src="assets/img/profile.png" alt="Widodo" class="max-w-full mx-auto py shadow-lg"/>
                         <span class="absolute -bottom-20 z-10 left-1/2 -translate-x-1/2 md:scale-125 text-5xl mb-10 pt-40">
                             WIDODO
                         </span>
@@ -179,6 +181,11 @@
         </div>
     </section>
     <!-- contact section akhir -->
+
+    <footer class="py-4 bg-primary">
+        <h2 class="text-center font-base text-white">@RcoBatam2022</h2>
+
+    </footer>
 
 
 
